@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #393333;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+.card{
+    display: inline;
+    flex-direction: column;
+    padding-top: 20%;
+
+}
+.diamond{
+width: 250px;
+height: 250px;
+background-color: transparent;
+top: 40%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+transform: rotate(-45deg);
+transform-origin: 0 100%;
+border-bottom: 35px #c2bdae solid;
+border-top:35px #a3d7a9 solid ;
+border-left:35px #52a4f6 solid ;
+border-right: 35px #d87745 solid;
+overflow: hidden;
+}
+.diamond::after{
+    box-shadow: 0 0 0 250px #522d5b;
+
+}
+.logo-title{
+    text-align: center;
+    padding: 5px 0;
+}
+.logo-title > h2 {
+    font-size: 30px;
+    padding: 10px 0;
+}
+.logo-title > p {
+    font-size: 20px;
+}
+.logo-content{
+    right: 50%;
+    padding: 60% 0;
+}
+
+.logo-content > h2{
+padding: 50px 40px;
+}
